@@ -312,25 +312,25 @@ body {
 }
 
 .video {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
+    top:0;
+    left: 0;
     z-index: -1;
 }
 
 @media (min-aspect-ratio: 16/9){
     .video{
-        width: 100rem;
-        height: 50rem;
-        overflow: hidden;
+        width: 100%;
+        height: auto;
     }
 }
 
 @media (max-aspect-ratio: 16/9){
     .video{
-        width: 100rem;
-        height: 50rem;
-        overflow: hidden;
+        width: auto;
+        height: 100%;
     }
 }
 
@@ -355,10 +355,5 @@ body {
     }    
     .panel.active .namep {
         top: calc(25vh + 12vw);
-    }
-    .video{
-        width: 100rem;
-        height: auto;
-        overflow: hidden;
     }
 }
