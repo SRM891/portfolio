@@ -237,10 +237,23 @@ body {
     left: 0px;
     opacity: 0.55;
 }
-.panel .certsimg .aws img, .python img, .java img, .javascript img{
+.panel .certsimg .aws img {
     max-width: 0;
     opacity: 0;
 }
+.panel .certsimg .python img {
+    max-width: 0;
+    opacity: 0;
+}
+.panel .certsimg .java img {
+    max-width: 0;
+    opacity: 0;
+}
+.panel .certsimg .javascript img{
+    max-width: 0;
+    opacity: 0;
+}
+
 .panel.active .certsimg .aws img{
     position: absolute;
     max-width: calc(3vw + 7vh);
