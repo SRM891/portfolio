@@ -89,6 +89,7 @@ body {
 
 .panel.active .namep {
     font-size: calc(1.2vw + 0.7vh);
+    text-align: center;
     max-width: 80%;
     position: absolute; 
     left: 7vw;
@@ -343,14 +344,21 @@ body {
         max-width: calc(10vh + 15vw);
         width: calc(40vh - 20vw);
         left: 25%;
+        z-index: 1;
     }
 }
 
 @media (max-width: 850px){
     .panel.active .name{
-        top: calc(15vh + 12vw);
+        top: calc(20vh + 12vw);
+        left: calc(22% + 8.5vw);
     }    
     .panel.active .namep {
         top: calc(25vh + 12vw);
+    }
+    .video{
+        width: 100rem;
+        height: auto;
+        overflow: hidden;
     }
 }
