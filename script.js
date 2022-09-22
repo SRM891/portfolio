@@ -11,5 +11,3 @@ function removeActiveClasses() {
         panel.classList.remove('active')
     })
 }
-
-document.getElementById("vid").playbackRate = 3.0;
